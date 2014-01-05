@@ -1,0 +1,62 @@
+/**
+ * Pastel On Dark theme ported from ACE editor
+ * @license BSD
+ * @copyright AtomicPages LLC 2014
+ * @author Dennis Thompson, AtomicPages LLC
+ * @version 1.0
+ * @source https://github.com/atomicpages/codemirror-pastel-on-dark-theme/
+ */
+
+.cm-s-pastel-on-dark {
+	&.CodeMirror {
+		background: #2c2827;
+		color: #8F938F;
+		font: {
+			family: consolas, Courier, monosace;
+			size: 14px;
+		};
+		line-height: 1.5;
+	}
+	div.CodeMirror-selected { background: rgba(221, 240, 255, 0.20) !important; }
+	.CodeMirror-gutters {
+		background: #34302f;
+		border-right: 0px;
+		padding: 0 3px;
+	}
+	.CodeMirror-linenumber { color: #8F938F; }
+	.CodeMirror-cursor { border-left: 1px solid #A7A7A7 !important; }
+	span {
+		&.cm-comment { color: #A6C6FF; }
+		&.cm-atom { color: #DE8E30; }
+		&.cm-number { color: #CCCCCC; }
+		&.cm-property { color: #8F938F; }
+		&.cm-attribute { color: #a6e22e; }
+		&.cm-keyword { color: #AEB2F8; }
+		&.cm-string { color: #66A968; }
+		&.cm-variable { color: #AEB2F8; }
+		&.cm-variable-2 { color: #BEBF55; }
+		&.cm-variable-3 { color: #DE8E30; }
+		&.cm-def { color: #757aD8; }
+		&.cm-bracket { color: #f8f8f2; }
+		&.cm-tag { color: #C1C144; }
+		&.cm-link { color: #ae81ff; }
+		&.cm-qualifier,
+		&.cm-builtin { color: #C1C144; }
+		// Bug with second tab image showing up
+		// On hold until issue is resolved
+		&.cm-tab {
+			// background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAACCAYAAACZgbYnAAAAEklEQVQImWNgYGBgYIiPj/8PAARgAh2NTMh8AAAAAElFTkSuQmCC) right repeat-y;
+			// &:last-child { background: none; }
+		}
+		&.cm-error {
+			background: #757aD8;
+			color: #f8f8f0;
+		}
+	}
+	.CodeMirror-activeline-background { background: rgba(255, 255, 255, 0.031) !important; }
+	.CodeMirror-matchingbracket {
+		color: #8F938F !important;
+		margin: -1px -1px 0 -1px;
+		border: 1px solid rgba(255, 255, 255, 0.25)
+	}
+}
