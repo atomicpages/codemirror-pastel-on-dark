@@ -3,7 +3,7 @@ CodeMirror Pastel On Dark
 CodeMirror theme styled as Pastel On Dark ported from [ACE Editor](http://ace.c9.io/#nav=about).  It's a non-intrusive dark-colored theme that is visually pleasing and will not blind you with bright colors, harsh contrast, and edgy fonts.
 
 ## Images
-
+![](https://raw.github.com/atomicpages/codemirror-pastel-on-dark/master/pastel-on-dark.png)
 
 ## License
 Copyright (c) 2014, AtomicPages LLC
